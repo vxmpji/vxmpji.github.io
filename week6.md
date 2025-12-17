@@ -11,8 +11,8 @@ Performance was monitored under baseline and load conditions to identify bottlen
 CPU-intensive workloads were tested using `stress-ng`, and RAM usage was monitored with `htop`.  
 The server’s response under high CPU and memory load was observed to measure utilisation and latency.
 
-![CPU Test](assets/week6_cpu.png)  
-![RAM Test](assets/week6_ram.png)
+![CPU Test](assets/week3_htop_cpu.png)  
+![RAM Test](week3_htop_ram.png)
 
 ---
 
@@ -20,7 +20,7 @@ The server’s response under high CPU and memory load was observed to measure u
 Disk read/write performance was evaluated using `dd` and `iostat`.  
 This tested the server’s ability to handle high-volume I/O operations without significant latency.
 
-![Disk I/O Test](assets/week6_disk.png)
+![Disk I/O Test](week3_disk.png)
 
 ---
 
@@ -28,7 +28,7 @@ This tested the server’s ability to handle high-volume I/O operations without 
 Network throughput and latency were measured using `wget` and `iperf3`.  
 File download tests and bandwidth monitoring assessed the server’s network capabilities under load.
 
-![Network Test](assets/week6_network.png)
+![Network Test](week3_network.png)
 
 ---
 
@@ -36,7 +36,7 @@ File download tests and bandwidth monitoring assessed the server’s network cap
 `nginx` was used as a server application to test service response times under concurrent access.  
 Response times and CPU/memory consumption were measured while clients connected to the server.
 
-![nginx Test](assets/week6_nginx.png)
+![nginx Test](week3_nginx.png)
 
 ---
 
@@ -45,7 +45,7 @@ Based on the observed bottlenecks, at least two optimisations were applied:
 1. Adjusting `nginx` worker processes for better concurrent handling.  
 2. Modifying `sysctl` kernel parameters to improve network and memory throughput.
 
-![Optimisation Evidence](assets/week6_optimisation.png)
+![Optimisation Evidence](assets/optimisation.png)
 
 ---
 
