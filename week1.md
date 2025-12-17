@@ -25,7 +25,3 @@ We are using the Windows host with PowerShell as our SSH client. This satisfies 
 - `df -h`: 20 GB root partition
 - `ip addr`: 10.0.2.15
 - `lsb_release -a`: Ubuntu 24.04 LTS
-
-- CLI output for all system specifications:
-
-![System Specs](assets/system_specs.png)
