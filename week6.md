@@ -12,7 +12,7 @@ CPU-intensive workloads were tested using `stress-ng`, and RAM usage was monitor
 The server’s response under high CPU and memory load was observed to measure utilisation and latency.
 
 ![CPU Test](assets/week3_htop_cpu.png)  
-![RAM Test](week3_htop_ram.png)
+![RAM Test](assets/week3_htop_ram.png)
 
 ---
 
@@ -20,7 +20,7 @@ The server’s response under high CPU and memory load was observed to measure u
 Disk read/write performance was evaluated using `dd` and `iostat`.  
 This tested the server’s ability to handle high-volume I/O operations without significant latency.
 
-![Disk I/O Test](week3_disk.png)
+![Disk I/O Test](assets/week3_disk.png)
 
 ---
 
@@ -28,7 +28,7 @@ This tested the server’s ability to handle high-volume I/O operations without 
 Network throughput and latency were measured using `wget` and `iperf3`.  
 File download tests and bandwidth monitoring assessed the server’s network capabilities under load.
 
-![Network Test](week3_network.png)
+![Network Test](assets/week3_network.png)
 
 ---
 
@@ -36,7 +36,7 @@ File download tests and bandwidth monitoring assessed the server’s network cap
 `nginx` was used as a server application to test service response times under concurrent access.  
 Response times and CPU/memory consumption were measured while clients connected to the server.
 
-![nginx Test](week3_nginx.png)
+![nginx Test](assets/week3_nginx.png)
 
 ---
 
