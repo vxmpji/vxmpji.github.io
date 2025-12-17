@@ -27,7 +27,7 @@ This reduces the risk of vulnerabilities being exploited.
 Fail2ban was installed and configured to monitor SSH login attempts.  
 It automatically bans IP addresses with repeated failed login attempts, reducing the risk of brute-force attacks.
 
-![Fail2ban Status](assets/fail2ban_status.png)
+![Fail2ban Status](assets/week5_fail2ban_status.png)
 
 ---
 
@@ -35,7 +35,7 @@ It automatically bans IP addresses with repeated failed login attempts, reducing
 A script (`security-baseline.sh`) was created to verify all security configurations from Phases 4 and 5.  
 This script checks SSH settings, firewall rules, user privileges, automatic updates, and AppArmor policies.
 
-![Security Baseline Script](assets/security_baseline.png)
+![Security Baseline Script](assets/week5_security_baseline.png)
 
 ---
 
@@ -43,7 +43,7 @@ This script checks SSH settings, firewall rules, user privileges, automatic upda
 A remote monitoring script (`monitor-server.sh`) was developed to collect performance metrics from the server.  
 The script gathers CPU, memory, disk, and network usage while connecting via SSH from the workstation.
 
-![Monitor Script Execution](assets/monitor_script.png)
+![Monitor Script Execution](assets/week5_monitor_script.png)
 
 ---
 
